@@ -1,0 +1,277 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+}
+
+.logo{
+    font-size: 1rem;
+    margin-left: 2rem;
+}
+
+.main-nav-item{
+ display: inline-block ;
+   margin-right: 1rem;
+   padding: 16px
+    ;
+}
+
+.main-nav-item a{
+    text-decoration: none;
+    font-size: 18px;
+    color: inherit;
+    font-weight: 700;
+}
+
+.main-nav-item a:hover,
+.main-nav-item a:active{
+     text-decoration: underline;
+     text-decoration-color: blue;
+     text-decoration-thickness: 2px;
+}
+
+
+/* hero section*/
+.hero-section{
+    font-size: 30px;
+    margin-left: 2rem;
+    
+}
+
+#span{
+    color: #4a4af6;
+}
+
+#hero-button{
+    background: #4a4af6;
+    color: white;
+    font-weight: 700;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 150px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 6px;
+
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.first-image img{
+    border-radius:50%;
+    width: 300px;
+    height: 300px;
+}
+
+
+
+/* about */
+.about-heading{
+    text-align: center;
+    color: #4a4af6;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 2px;
+    margin-bottom: 2rem;
+}
+
+.about{
+    display: flex;
+    align-content: center;
+    gap: 80px;
+ margin-bottom: 100px;
+}
+
+.about-img img{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+ margin-left: 2rem;
+
+}
+
+.about-writeup{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+/* skills*/
+.skill-heading{
+    text-align: center;
+    color: #4a4af6;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 2px;
+    margin-bottom: 2rem;
+}
+
+.skills{
+    display: flex;
+    gap: 20px;
+    height: fit-content;
+    margin-bottom: 100px;
+    margin-left: 2rem;
+}
+
+.skill-list-items{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+.skill-listing h3{
+    margin-bottom: 1rem;
+
+}
+
+.skill-listing p{
+    margin-bottom: 1rem;
+}
+
+/* Work*/
+.work-heading{
+    text-align: center;
+    color: #4a4af6;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 2px;
+    margin-bottom: 2rem;
+}
+
+.work-img{
+    display: grid;
+    grid-template-columns: 250px 250px 300px;
+    gap: 20px;
+    align-items: center;
+    margin-left: 2rem;
+    margin-bottom: 60px;
+}
+
+/* contact */
+.contact-heading{
+    text-align: center;
+    color: #4a4af6;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 2px;
+    margin-bottom: 1rem;
+}
+
+.contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.contact-form form p input{
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 4px;
+    height: 30px;
+    font-weight: 700;
+}
+
+textarea{
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-weight: 700;
+    width: 90%;
+}
+
+.last-button{
+    margin-left: 120px;
+    margin-top:2px;
+    background: #4a4af6;
+    color: white;
+    font-weight: 700;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 80px;
+    cursor: pointer;
+    height: 50px;
+    border: none;
+   
+}
+
+.footer{
+    background: #000000df;
+    color: white;
+    text-align: center;
+}
+
+.footer-head{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-links{
+    margin-bottom: 10px;
+}
+
+.footer-p{
+    margin-bottom: 10px;
+    font-size: 7px;
+}
+
+
+/* header section
+@media (max-width:671px){
+    .main-nav-item{
+        display: inline-block ;
+        margin-right: 8px;
+    }
+    .logo{
+        font-size: 1rem;
+      /*  margin-left: 2rem;*/
+    }
+}*/
+
+/* hero *//*
+@media (max-width:650px){
+    .hero{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content:space-between;
+        align-items: center;
+        margin-bottom: 140px;
+        padding: 0;
+        margin-left: 0;
+    }
+    first-image img{
+        border-radius:50%;
+        width: 100%;
+        height: 300px;
+        margin-left: auto;
+    }
+    .hero-section{
+        font-size: 30px;
+    }
+    */
+}
+
